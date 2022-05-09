@@ -1,0 +1,1323 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.gap{
+    width: 100%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+}
+img{
+    vertical-align: middle;
+}
+/*===========
+common css end
+============*/
+.header-bg{
+    width: 100%;
+    height: 50px;
+}
+.header-bg .header-contant{
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+}
+.header-bg .header-contant .header-contant1{
+    width: 230px;
+    height: 50px;
+    float: left;
+}
+.header-bg .header-contant .header-contant1 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.header-bg .header-contant .header-contant2{
+    width: 230px;
+    height: 50px;
+    float: left;
+}
+.header-bg .header-contant .header-contant2 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.header-bg .header-contant .header-contant3{
+    width: 500px;
+    height: 50px;
+    float: left;
+}
+
+.header-bg .header-contant .header-contant3 a{
+    text-decoration: none;
+    background: rgb(255, 136, 0);
+    float:right;
+    color: aliceblue;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+.header-bg .header-contant .header-contant3 a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;
+}
+/*===========
+header css end
+============*/
+.menu-bg{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(131, 84, 133);
+}
+.menu-bg .menu-contant{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+.menu-bg .menu-contant .logo{
+    width: 260px;
+    height: 100px;
+    float: left;
+}
+.menu-bg .menu-contant .logo a{
+    margin-left: 20px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.menu-bg .menu-contant .menu-list{
+    width: 700px;
+    height: 100px;
+    float: left;
+}
+.menu-bg .menu-contant .menu-list ul{
+    list-style-type: none;
+    padding-left: 50px;
+}
+.menu-bg .menu-contant .menu-list ul li{
+    float: left;
+}
+.menu-bg .menu-contant .menu-list a{
+    font-size: medium;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.849);
+    padding: 0 25px;
+    line-height: 100px;
+
+}
+.menu-bg .menu-contant .menu-list a:hover{
+    color: rgb(216, 116, 223);
+    transition: all 0.5s linear; 
+}
+/*===========
+menu css end
+============*/
+.hero-bg{
+    width: 100%;
+    height: 964px;
+    background-image:url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-bg .hero-overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+.hero-bg .hero-overlay .hero-contant{
+    width: 960px;
+    height: 964px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-bg .hero-overlay .hero-contant h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-top: 300px;
+}
+.hero-bg .hero-overlay .hero-contant h1 span{
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+}
+.hero-bg .hero-overlay .hero-contant a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.hero-bg .hero-overlay .hero-contant a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;
+}
+/*===========
+hero css end
+============*/
+
+.we-make-bg{
+    width: 100%;
+    height: 200px;
+}
+.we-make-bg .we-make-contant{
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}  
+.we-make-bg .we-make-contant p{
+    color: rgb(207, 42, 42);
+    font-size: 20px;
+    padding-top: 45px;
+}
+.we-make-bg .we-make-contant h1{
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+}
+/*===========
+we make css end
+============*/
+.school-bg{
+    width: 100%;
+    height: 300px;
+}
+.school-bg .school-contant{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+.school-bg .school-contant .contant1{
+    width:  235px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    float: left;
+}
+.school-bg .school-contant .contant1 .contant11{
+    width:  235px;
+    height: 128px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.school-bg .school-contant .contant1 .contant12{
+    width:  235px;
+    height: 172px;
+    padding-top: 50px;
+    text-align: center;
+} 
+.school-bg .school-contant .contant2{
+    width:  235px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    float: left;
+}
+.school-bg .school-contant .contant2 .contant21{
+    width:  235px;
+    height: 128px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.school-bg .school-contant .contant2 .contant22{
+    width:  235px;
+    height: 172px;
+    padding-top: 50px;
+    text-align: center;
+} 
+.school-bg .school-contant .contant3{
+    width:  235px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    float: left;
+}
+.school-bg .school-contant .contant3 .contant31{
+    width:  235px;
+    height: 128px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.school-bg .school-contant .contant3 .contant32{
+    width:  235px;
+    height: 172px;
+    padding-top: 50px;
+    text-align: center;
+} 
+.school-bg .school-contant .contant4{
+    width:  235px;
+    height: 300px;
+    background-color: aliceblue;
+    float: left;
+}
+.school-bg .school-contant .contant4 .contant41{
+    width:  235px;
+    height: 128px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.school-bg .school-contant .contant4 .contant42{
+    width:  235px;
+    height: 172px;
+    padding-top: 50px;
+    text-align: center;
+} 
+/*===========
+school css end
+============*/
+
+.why-bg{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+}
+.why-bg .why-contant{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+.why-bg .why-contant .content1{
+    width:  500px;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+.why-bg .why-contant .content1 h1{
+    font-size: 20px;
+    color: red;
+    padding-top: 150px;
+}
+.why-bg .why-contant .content1 h1 span{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.why-bg .why-contant .content1 a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.why-bg .why-contant .content1 a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;
+}
+.why-bg .why-contant .content2{
+    width:  500px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.why-bg .why-contant .content2 img{
+    padding-top: 110px;
+}
+.why-bg .why-contant .content2 .play{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(131, 84, 133);
+    position: absolute;
+    left: 320px;
+    bottom: 40px;
+    border-radius: 50%;
+}
+.why-bg .why-contant .content2 .play a{
+    text-decoration: none;
+    background: rgb(255, 136, 0);
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-top: 35px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.why-bg .why-contant .content2 .play a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;  
+}
+/*===========
+why css end
+============*/
+.banner-bg{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-bg .banner-contant{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(131, 84, 133);
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    text-align: center;
+}
+.banner-bg .banner-contant h1{
+    color: rgb(255, 255, 255);
+    padding: 0 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.banner-bg .banner-contant p{
+    color: rgb(255, 255, 255);
+    padding: 0 50px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.banner-bg .banner-contant a{
+    text-decoration: none;
+    background: rgb(255, 136, 0);
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.banner-bg .banner-contant a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;  
+}
+/*===========
+banner css end
+============*/
+.what-bg{
+    width: 100%;
+    height: 200px;
+}
+.what-bg .what-contant{
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}  
+.what-bg .what-contant p{
+    color: rgb(207, 42, 42);
+    font-size: 20px;
+    padding-top: 45px;
+}
+.what-bg .what-contant h1{
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+}
+/*===========
+what css end
+============*/
+.our-services-bg{
+    width: 100%;
+    height: 200px;
+}
+.our-services-bg .our-services-contant{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+}
+.our-services-bg .our-services-contant .contant1{
+    width: 500px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+.our-services-bg .our-services-contant .contant1 .im{
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.our-services-bg .our-services-contant .contant1 .te{
+    width: 300px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+.our-services-bg .our-services-contant .contant1 .te h1{
+    padding-bottom: 20px;
+}
+.our-services-bg .our-services-contant .contant1 .te p{
+    color: gray;
+}
+.our-services-bg .our-services-contant .contant2{
+    width: 500px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+.our-services-bg .our-services-contant .contant2 .im{
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.our-services-bg .our-services-contant .contant2 .te{
+    width: 300px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+.our-services-bg .our-services-contant .contant2 .te h1{
+    padding-bottom: 20px;
+}
+.our-services-bg .our-services-contant .contant2 .te p{
+    color: gray;
+}
+/*================
+our-sevices css end
+=================*/
+.orc-bg{
+    width: 100%;
+    height: 200px;
+}
+.orc-bg .orc-contant{
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.orc-bg .orc-contant h1{
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+    padding-top: 45px;
+}
+.orc-bg .orc-contant span{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    border-right: 5px solid  rgb(96, 60, 97);
+}
+.orc-bg .orc-contant p{
+    color: gray;
+    font-size: 20px;
+}
+/*================
+orc css end
+=================*/
+.box-bg{
+    width: 100%;
+    height: 600px;
+}
+.box-bg .box-contant{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.box-bg .box-contant .box1{
+    width: 320px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+}
+.box-bg .box-contant .box1 .im{
+    width: 320px;
+    height: 300px;
+    position: relative;
+}
+.box-bg .box-contant .box1 .im .box-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box-bg .box-contant .box1 .im:hover .box-overlay{
+    opacity: 1;
+    transition: all linear 0.5s;
+}
+.box-bg .box-contant .box1 .im .box-overlay .icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.box-bg .box-contant .box1 .te{
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.box-bg .box-contant .box1 .te h3{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.box-bg .box-contant .box1 .te ul{
+    list-style-type: none;
+    padding-left:45px;
+
+}
+.box-bg .box-contant .box1 .te li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 5px;
+    background: rgb(255, 136, 0);
+}
+.box-bg .box-contant .box1 .te p{
+    padding: 10px 0;
+    color: gray;
+}
+.box-bg .box-contant .box1 .te .perbg{
+    width: 320px;
+    height: 20px;
+    background-color: gray;
+}
+.box-bg .box-contant .box1 .te .perbg .percon{
+    width: 192px;
+    height: 20px;
+    background: rgb(255, 136, 0);
+    text-align: center;
+}
+.box-bg .box-contant .box1 .te a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.box-bg .box-contant .box1 .te a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear; 
+}
+.box-bg .box-contant .box2{
+    width: 320px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+}
+.box-bg .box-contant .box2 .im{
+    width: 320px;
+    height: 300px;
+    position: relative;
+}
+.box-bg .box-contant .box2 .im .box-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box-bg .box-contant .box2 .im:hover .box-overlay{
+    opacity: 1;
+    transition: all linear 0.5s;
+}
+.box-bg .box-contant .box2 .im .box-overlay .icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.box-bg .box-contant .box2 .te{
+    width: 320px;
+    height: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.box-bg .box-contant .box2 .te h3{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.box-bg .box-contant .box2 .te ul{
+    list-style-type: none;
+    padding-left:45px;
+
+}
+.box-bg .box-contant .box2 .te li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 5px;
+    background: rgb(255, 136, 0);
+}
+.box-bg .box-contant .box2 .te p{
+    padding: 10px 0;
+    color: gray;
+}
+.box-bg .box-contant .box2 .te .perbg{
+    width: 320px;
+    height: 20px;
+    background-color: gray;
+}
+.box-bg .box-contant .box2 .te .perbg .percon{
+    width: 192px;
+    height: 20px;
+    background: rgb(255, 136, 0);
+    text-align: center;
+}
+.box-bg .box-contant .box2 .te a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.box-bg .box-contant .box2 .te a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear; 
+}
+.box-bg .box-contant .box3{
+    width: 320px;
+    height: 600px;
+    float: left;
+    
+}
+.box-bg .box-contant .box3 .im{
+    width: 320px;
+    height: 300px;
+    position: relative;
+}
+.box-bg .box-contant .box3 .im .box-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box-bg .box-contant .box3 .im:hover .box-overlay{
+    opacity: 1;
+    transition: all linear 0.5s;
+}
+.box-bg .box-contant .box3 .im .box-overlay .icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.box-bg .box-contant .box3 .te{
+    width: 320px;
+    height: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.box-bg .box-contant .box3 .te h3{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.box-bg .box-contant .box3 .te ul{
+    list-style-type: none;
+    padding-left:45px;
+
+}
+.box-bg .box-contant .box3 .te li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 5px;
+    background: rgb(255, 136, 0);
+}
+.box-bg .box-contant .box3 .te p{
+    padding: 10px 0;
+    color: gray;
+}
+.box-bg .box-contant .box3 .te .perbg{
+    width: 320px;
+    height: 20px;
+    background-color: gray;
+}
+.box-bg .box-contant .box3 .te .perbg .percon{
+    width: 192px;
+    height: 20px;
+    background: rgb(255, 136, 0);
+    text-align: center;
+}
+.box-bg .box-contant .box3 .te a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.box-bg .box-contant .box3 .te a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear; 
+}
+/*================
+our rcb2 css end
+=================*/
+.ovb-bg{
+    width: 100%;
+    height: 600px;
+}
+.ovb-bg .ovb-contant{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.ovb-bg .ovb-contant .ovb1{
+    width: 320px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+}
+.ovb-bg .ovb-contant .ovb1 .ovb11{
+    width: 320px;
+    height: 500px;
+    position: relative;
+}
+.ovb-bg .ovb-contant .ovb1 .ovb11 .ovb-overlay{
+    width: 100%;
+    height: 0%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.ovb-bg .ovb-contant .ovb1 .ovb11:hover .ovb-overlay{
+    height: 100%;
+    transition: all linear 0.5s;
+    opacity: 1;
+}
+.ovb-bg .ovb-contant .ovb1 .ovb11 .ovb-overlay .ovb-icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.ovb-bg .ovb-contant .ovb1 .ovb12{
+    width: 320px;
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.ovb-bg .ovb-contant .ovb1 .ovb12 h3{
+    font-size: 30px;
+    line-height: 100px;
+}
+.ovb-bg .ovb-contant .ovb2{
+    width: 320px;
+    height: 600px;
+    float: left;
+    margin-right: 20px; 
+}
+.ovb-bg .ovb-contant .ovb2 .ovb21{
+    width: 320px;
+    height: 500px;
+    position: relative;
+}
+.ovb-bg .ovb-contant .ovb2 .ovb21 .ovb-overlay{
+    width: 100%;
+    height: 0%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.ovb-bg .ovb-contant .ovb2 .ovb21:hover .ovb-overlay{
+    height: 100%;
+    transition: all linear 0.5s;
+    opacity: 1;
+}
+.ovb-bg .ovb-contant .ovb2 .ovb21 .ovb-overlay .ovb-icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.ovb-bg .ovb-contant .ovb2 .ovb22{
+    width: 320px;
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.ovb-bg .ovb-contant .ovb2 .ovb22 h3{
+    font-size: 30px;
+    line-height: 100px;
+}
+.ovb-bg .ovb-contant .ovb3{
+    width: 320px;
+    height: 600px;
+    float: left;
+}
+.ovb-bg .ovb-contant .ovb3 .ovb31{
+    width: 320px;
+    height: 500px;
+    position: relative;
+}
+.ovb-bg .ovb-contant .ovb3 .ovb31 .ovb-overlay{
+    width: 100%;
+    height: 0%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.ovb-bg .ovb-contant .ovb3 .ovb31:hover .ovb-overlay{
+    height: 100%;
+    transition: all linear 0.5s;
+    opacity: 1;
+}
+.ovb-bg .ovb-contant .ovb3 .ovb31 .ovb-overlay .ovb-icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px; 
+}
+.ovb-bg .ovb-contant .ovb3 .ovb32{
+    width: 320px;
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.ovb-bg .ovb-contant .ovb3 .ovb32 h3{
+    font-size: 30px;
+    line-height: 100px;
+}
+/*================
+ovb css end
+=================*/
+.olb-bg{
+    width: 100%;
+    height: 500px;
+}
+.olb-bg .olb-contant{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(204, 194, 102);
+    margin: 0 auto;
+}
+.olb-bg .olb-contant .contant1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(102, 204, 187);
+    float: left;
+    position: relative;
+}
+.olb-bg .olb-contant .contant1 .contant1-overlay{
+    width: 100%;
+    height: 0%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.olb-bg .olb-contant .contant1 .contant1-overlay .icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin: 200px 200px;
+}
+.olb-bg .olb-contant .contant1 .contant1-overlay .icon:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;
+}
+.olb-bg .olb-contant .contant1:hover .contant1-overlay{
+    opacity: 1;
+    height: 100%;
+    transition: all linear 0.5s;
+}
+.olb-bg .olb-contant .contant1 .contant11{
+    width: 250px;
+    height: 500px;
+    background-color: aliceblue;
+    float: left;
+    text-align: center;
+}
+.olb-bg .olb-contant .contant1 .contant11 h1{
+    float: right;
+    font-size: 50px;
+    display:block;
+    color: rgb(0, 0, 0);
+}
+.olb-bg .olb-contant .contant1 .contant11 ul{
+    list-style-type: none;
+    padding-top: 150px;
+}
+.olb-bg .olb-contant .contant1 .contant11 ul li{
+    float: left;
+    margin-left: 20px;
+    padding: 5px 5px;
+    background: rgb(255, 136, 0);
+}
+.olb-bg .olb-contant .contant1 .contant11 h3{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.olb-bg .olb-contant .contant1 .contant11 p{
+    color: gray;
+}
+.olb-bg .olb-contant .contant1 .contant12{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(194, 98, 146);
+    float: left;
+}
+.olb-bg .olb-contant .contant2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(146, 102, 204);
+    float: left;
+    position: relative;
+}
+.olb-bg .olb-contant .contant2 .contant2-overlay{
+    width: 100%;
+    height: 0%;
+    background-color: rgba(131, 84, 133, 0.507);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.olb-bg .olb-contant .contant2 .contant2-overlay .icon{
+    background-color: rgb(131, 84, 133);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin: 200px 200px;
+}
+.olb-bg .olb-contant .contant2 .contant2-overlay .icon:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;
+}
+.olb-bg .olb-contant .contant2:hover .contant2-overlay{
+    opacity: 1;
+    height: 100%;
+    transition: all linear 0.5s;
+}
+.olb-bg .olb-contant .contant2 .contant21{
+    width: 250px;
+    height: 500px;
+    background-color: aliceblue;
+    float: left;
+    text-align: center;
+}
+.olb-bg .olb-contant .contant2 .contant21 h1{
+    float: right;
+    font-size: 50px;
+    display:block;
+    color: rgb(0, 0, 0);
+}
+.olb-bg .olb-contant .contant2 .contant21 ul{
+    list-style-type: none;
+    padding-top: 150px;
+}
+.olb-bg .olb-contant .contant2 .contant21 ul li{
+    float: left;
+    margin-left: 20px;
+    padding: 5px 5px;
+    background: rgb(255, 136, 0);
+}
+.olb-bg .olb-contant .contant2 .contant21 h3{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.olb-bg .olb-contant .contant2 .contant21 p{
+    color: gray;
+}
+.olb-bg .olb-contant .contant2 .contant22{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(194, 98, 146);
+    float: left;
+}
+/*===========
+olb css end
+============*/
+.faqc-bg{
+    width: 100%;
+    height: 400px;
+}
+.faqc-bg .faqc-con{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(72, 142, 235);
+    margin: 0 auto;
+}
+.faqc-bg .faqc-con .con1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(170, 72, 235);
+    float: left;
+}
+.faqc-bg .faqc-con .con1 .con11{
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+    position: relative;
+    border-bottom:5px solid rgb(131, 84, 133);
+    box-sizing: border-box;
+}
+.faqc-bg .faqc-con .con1 .con11 h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.faqc-bg .faqc-con .con1 .con11 h3{
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con11 p{
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 45px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con12{
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+    position: relative;
+    border-bottom:5px solid rgb(131, 84, 133);
+    box-sizing: border-box;
+}
+.faqc-bg .faqc-con .con1 .con12 h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.faqc-bg .faqc-con .con1 .con12 h3{
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con12 p{
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 45px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con13{
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+    position: relative;
+    border-bottom:5px solid rgb(131, 84, 133);
+    box-sizing: border-box;
+}
+.faqc-bg .faqc-con .con1 .con13 h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.faqc-bg .faqc-con .con1 .con13 h3{
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con13 p{
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 45px;
+    left: 110px;
+}
+.faqc-bg .faqc-con .con1 .con14{
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+}
+.faqc-bg .faqc-con .con1 .con14 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 84, 133);
+    padding: 10px 15px;
+    margin: 30px 200px;
+    display: inline-block; 
+}
+.faqc-bg .faqc-con .con1 .con14 a:hover{
+    background-color: rgb(175, 133, 177);
+    transition: all 0.5s linear;  
+}
+.faqc-bg .faqc-con .con2{
+    width: 500px;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+.faqc-bg .faqc-con .con2 h3{
+    background: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 100px;
+}
+/*===========
+faqc css end
+============*/
+.opc-bg{
+    width: 100%;
+    height: 200px;
+}
+.opc-bg .con{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.opc-bg .con .c1{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.opc-bg .con .c2{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.opc-bg .con .c3{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.opc-bg .con .c4{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.opc-bg .con .c5{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.opc-bg .con .c6{
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+/*===========
+opc css end
+============*/
+.fn-bg{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(131, 84, 133);
+}
+.fn-bg .con{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(131, 84, 133);
+    margin: 0 auto;
+}
+.fn-bg .con .c1{
+    width: 320px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+} 
+.fn-bg .con .c1 img{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.fn-bg .con .c1 p{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.fn-bg .con .c2{
+    width: 320px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+.fn-bg .con .c2 h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.fn-bg .con .c2 p{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.fn-bg .con .c2 p span{
+    color: rgb(255, 255, 255);
+    float: right;
+    padding-right: 10px;
+}
+.fn-bg .con .c2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.fn-bg .con .c2  a:hover{
+    color: rgb(175, 133, 177);
+    transition: all 0.5s linear; 
+}
+.fn-bg .con .c3{
+    width: 320px;
+    height: 300px;
+    float: left;
+    position: relative;
+} 
+.fn-bg .con .c3 h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+.fn-bg .con .c3 input{
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
